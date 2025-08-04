@@ -4,7 +4,7 @@ services:
   web:
     build: .
     ports:
-      - "5000:5000"  
+      - "5050:5000"  # Host:Container — FIXED
     volumes:
       - ./uploads:/app/uploads
     env_file:
