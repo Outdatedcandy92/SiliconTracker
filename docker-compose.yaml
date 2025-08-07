@@ -14,7 +14,7 @@ services:
       - coolify
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.web.rule=Host(`groundplane.hackclub.com`)"
+      - "traefik.http.routers.web.rule=Host(`siliconplane.hackclub.com`)"
       - "traefik.http.routers.web.entrypoints=http,https"
       - "traefik.http.routers.web.tls.certresolver=letsencrypt"
       - "traefik.http.services.web.loadbalancer.server.port=5000"
